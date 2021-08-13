@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ConsoleApp8
+namespace SkillFactory.Module25
 {
     public class AppContext: DbContext
     {

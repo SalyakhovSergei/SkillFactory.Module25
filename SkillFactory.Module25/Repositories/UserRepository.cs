@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 
-namespace ConsoleApp8
+namespace SkillFactory.Module25
 {
     public class UserRepository
     {

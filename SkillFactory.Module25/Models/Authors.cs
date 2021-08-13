@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApp8
+namespace SkillFactory.Module25
 {
-    public class Genre
+    public class Authors
     {
         public int Id { get; set; }
-        public string Title { get; set; }
+        public string Name { get; set; }
         public List<Book> Books { get; set; } = new List<Book>();
+        
     }
 }

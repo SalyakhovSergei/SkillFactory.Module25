@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 
-namespace ConsoleApp8
+namespace SkillFactory.Module25
 {
     class Program
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NepiXx1KGPGO2TCj3xjcOVe95Hif3ckYPjIIdIKxaE6F4bt6CEQrZmzwfv9e3GcAwiRNCfvzEAi1RZR9PATm0Q==",
+  "dgSpecHash": "/jA/chFHZB3OkTQ7zo9FLICzairyRw6Svfir9mA29IR0AFRA183gwWcmgp+2CCeh0mmnnV2G5SVaVjSFYhL2Pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\ConsoleApp8\\ConsoleApp8.csproj",
+  "projectFilePath": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\SkillFactory.Module25\\SkillFactory.Module25.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Анатолий\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Анатолий\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

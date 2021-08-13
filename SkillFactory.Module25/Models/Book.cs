@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp8
+﻿using SkillFactory.Module25.Models;
+
+namespace SkillFactory.Module25
 {
     public class Book
     {

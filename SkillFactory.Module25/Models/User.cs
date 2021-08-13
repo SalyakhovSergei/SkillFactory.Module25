@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApp8
+namespace SkillFactory.Module25
 {
     public class User
     {

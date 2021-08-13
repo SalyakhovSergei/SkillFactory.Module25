@@ -6121,11 +6121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\ConsoleApp8\\ConsoleApp8.csproj",
-      "projectName": "ConsoleApp8",
-      "projectPath": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\ConsoleApp8\\ConsoleApp8.csproj",
+      "projectUniqueName": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\SkillFactory.Module25\\SkillFactory.Module25.csproj",
+      "projectName": "SkillFactory.Module25",
+      "projectPath": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\SkillFactory.Module25\\SkillFactory.Module25.csproj",
       "packagesPath": "C:\\Users\\Анатолий\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\ConsoleApp8\\obj\\",
+      "outputPath": "C:\\Users\\Анатолий\\RiderProjects\\ConsoleApp8\\SkillFactory.Module25\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Анатолий\\AppData\\Roaming\\NuGet\\NuGet.Config",
