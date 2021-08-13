@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SkillFactory.Module25
+namespace SkillFactory.Module25.Models
 {
     public class Authors
     {

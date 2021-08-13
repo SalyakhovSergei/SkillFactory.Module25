@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using SkillFactory.Module25;
+using SkillFactory.Module25.Models;
 
-namespace ConsoleApp8.Repositories
+namespace SkillFactory.Module25.Repositories
 {
     public class BookRepository
     {

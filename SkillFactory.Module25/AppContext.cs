@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SkillFactory.Module25.Models;
 
 namespace SkillFactory.Module25
 {

@@ -1,6 +1,6 @@
-﻿using SkillFactory.Module25.Models;
+﻿
 
-namespace SkillFactory.Module25
+namespace SkillFactory.Module25.Models
 {
     public class Book
     {

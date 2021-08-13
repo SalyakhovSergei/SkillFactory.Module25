@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using SkillFactory.Module25.Models;
 
-namespace SkillFactory.Module25
+namespace SkillFactory.Module25.Repositories
 {
     public class UserRepository
     {
