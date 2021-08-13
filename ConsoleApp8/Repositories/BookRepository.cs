@@ -15,19 +15,21 @@ namespace ConsoleApp8
             }
         }
         
-        public void SelectAllBooks()
+        public List<Book> SelectAllBooks()
         {
             using (var db = new AppContext())
             {
-                List<Book> allUsers = db.Books.ToList();
+                List<Book> allBooks = db.Books.ToList();
+                return allBooks;
             }
         }
         
-        public void SelectBookById(int id)
+        public Book SelectBookById(int id)
         {
             using (var db = new AppContext())
             {
-                List<Book> bookById = db.Books.Where(o => o.Id == id).ToList();
+                Book bookById = db.Books.Where(o => o.Id == id).FirstOrDefault();
+                return bookById;
             }
         }
         
@@ -61,7 +63,7 @@ namespace ConsoleApp8
         {
             using (var db = new AppContext())
             {
-                var booksByAuthor = db.Books.Count(o => o.Author.Name == authorName);
+                int booksByAuthor = db.Books.Count(o => o.Author.Name == authorName);
                 return booksByAuthor;
             }
         }
@@ -71,8 +73,8 @@ namespace ConsoleApp8
         {
             using (var db = new AppContext())
             {
-                var booksByAuthor = db.Books.Count(o => o.Genre.Title == genre);
-                return booksByAuthor;
+                int booksByGenre = db.Books.Count(o => o.Genre.Title == genre);
+                return booksByGenre;
             }
         }
         

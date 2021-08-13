@@ -17,19 +17,21 @@ namespace ConsoleApp8
             }
         }
 
-        public void SelectAllUsers()
+        public List<User> SelectAllUsers()
         {
             using (var db = new AppContext())
             {
                 List<User> allUsers = db.Users.ToList();
+                return allUsers;
             }
         }
 
-        public void SelectUserById(int id)
+        public User SelectUserById(int id)
         {
             using (var db = new AppContext())
             {
-                List<User> userById = db.Users.Where(o => o.Id == id).ToList();
+               User userById = db.Users.Where(o => o.Id == id).FirstOrDefault();
+                return userById;
             }
         }
 
