@@ -99,12 +99,8 @@ namespace SkillFactory.Module25.Repositories
         {
             using (var db = new AppContext())
             {
-                List<Book> bookByBookName = db.Books.Where(o => o.BookName == bookName).ToList();
-                foreach (var book in bookByBookName)
-                {
-                    if (book.UserId != null) return true;
-                }
-                return false;
+                Book bookByBookName = db.Books.FirstOrDefault(o => o.BookName == bookName);
+                return bookByBookName?.User.Name == userName;
             }
         }
         

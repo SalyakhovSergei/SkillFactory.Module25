@@ -7,6 +7,8 @@ namespace SkillFactory.Module25
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Authors> Authors { get; set; }
+        public DbSet<Genre> Genres { get; set; }
 
         public AppContext()
         {
